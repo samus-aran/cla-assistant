@@ -29,7 +29,7 @@ function checkReturnTo(req, res, next) {
     req.session.returnTo = req.query.public === 'true' ? req.session.next || req.headers.referer : '/'
 
     logger.debug('Check returnTo and call passport authenticate with appropriate scope')
-
+    logger.debug(res)
     passport.authenticate('github', {
         scope: scope
     })(req, res, next)
