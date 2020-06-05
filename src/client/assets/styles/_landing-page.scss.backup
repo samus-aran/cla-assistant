@@ -39,6 +39,7 @@
 
 .lp-start-view {
   position: relative;
+  height: 100vH;
 }
 
 .lp-premium {
