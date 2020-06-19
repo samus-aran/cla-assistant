@@ -26,7 +26,7 @@
 
   .navbar-brand {
 	padding-left: 10px;
-	padding-top: 10px;
+	padding-top:0
   }
 
   .lp-signin {
@@ -39,6 +39,7 @@
 
 .lp-start-view {
   position: relative;
+  height: 100vH;
 }
 
 .lp-premium {
